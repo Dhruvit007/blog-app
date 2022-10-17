@@ -1,0 +1,39 @@
+.detailed-blog-container {
+  width: 80%;
+  text-align: center;
+}
+.blog-heading {
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 500px) {
+  .blog-heading {
+    font-size: 20px;
+  }
+}
+.blog-avatar-container {
+  display: flex;
+}
+.blog-avatar {
+  width: 50px;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.blog-author-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.blog-image {
+  width: 100%;
+}
+.blog-post-text {
+  color: #2f4f4f;
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: left;
+}
+@media screen and (max-width: 500px) {
+  .blog-post-text {
+    font-size: 14px;
+  }
+}
